@@ -12,7 +12,7 @@
 		EF148E902832175100EB1B06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF148E8F2832175100EB1B06 /* ViewController.swift */; };
 		EF148E932832175100EB1B06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF148E912832175100EB1B06 /* Main.storyboard */; };
 		EF148E952832175300EB1B06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF148E942832175300EB1B06 /* Assets.xcassets */; };
-		EF148E982832175300EB1B06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF148E962832175300EB1B06 /* LaunchScreen.storyboard */; };
+		EF4D7FFF28321A520075059D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4D7FFD28321A520075059D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +22,8 @@
 		EF148E8F2832175100EB1B06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF148E922832175100EB1B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF148E942832175300EB1B06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EF148E972832175300EB1B06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF148E992832175300EB1B06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4D7FFE28321A520075059D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../Dicee-iOS13-master/Dicee-iOS13/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				EF148E8F2832175100EB1B06 /* ViewController.swift */,
 				EF148E912832175100EB1B06 /* Main.storyboard */,
 				EF148E942832175300EB1B06 /* Assets.xcassets */,
-				EF148E962832175300EB1B06 /* LaunchScreen.storyboard */,
+				EF4D7FFD28321A520075059D /* LaunchScreen.storyboard */,
 				EF148E992832175300EB1B06 /* Info.plist */,
 			);
 			path = dice;
@@ -125,7 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF148E982832175300EB1B06 /* LaunchScreen.storyboard in Resources */,
+				EF4D7FFF28321A520075059D /* LaunchScreen.storyboard in Resources */,
 				EF148E952832175300EB1B06 /* Assets.xcassets in Resources */,
 				EF148E932832175100EB1B06 /* Main.storyboard in Resources */,
 			);
@@ -155,10 +155,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EF148E962832175300EB1B06 /* LaunchScreen.storyboard */ = {
+		EF4D7FFD28321A520075059D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EF148E972832175300EB1B06 /* Base */,
+				EF4D7FFE28321A520075059D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -290,6 +290,7 @@
 				DEVELOPMENT_TEAM = 27547DF2T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dice;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +319,7 @@
 				DEVELOPMENT_TEAM = 27547DF2T5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = dice/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Dice;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
